@@ -1,8 +1,10 @@
+from case import Case
+
 class Product:
     def __init__(self):
         self.priority: int
         self.name: str
-        self.product_type: list[str]
+        self.product_type: list[Case]
         self.target: list[str]
         self.benefit: list[str]
         self.related_case: list[str]
