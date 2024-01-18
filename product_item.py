@@ -1,6 +1,6 @@
-from case import Case
+from case_root import Case
 
-class Product:
+class ProductItem:
     def __init__(self):
         self.priority: int
         self.name: str
